@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <center>
+            <div class="js-calendar">
+                <h2>
+                    0000.00.00
+                </h2>
+            </div>
+            <div class="js-clock">
+                <h1>
+                    00:00
+                </h1>
+            </div>
+            <div style="height: 40px;"></div>
+            <form class="js-form form">
+                <input type="text" class="textbox" placeholder="What is your name?">
+            </form>
+            <h2 class="js-greetings greetings"></h2>
+            <button type="button" class="js-initNameButton initNameButton" onclick="initName()">이름 초기화</button>
+            <div style="height: 20px;"></div>
+            <form class="js-toDoForm">
+                <input type="text" class="textbox" placeholder="Write.">
+            </form>
+            <ul class="js-toDoList deleteDot elements">
+            </ul>
+            <img class="js-weatherImg">
+            <br>
+            <span class="js-weather" style="color: white;"></span>
+            <script src="calendar.js"></script>
+            <script src="clock.js"></script>
+            <script src="greeting.js"></script>
+            <script src="todo.js"></script>
+            <script src="bg.js"></script>
+            <script src="weather.js"></script>
+        </center>
+    </body>
+</html>
